@@ -150,9 +150,84 @@ switch (opcaodojogador)
 {
 //população    
 case 1:
-printf("\n\nOpção escolhida: População");
+printf("\n\nOpção escolhida: População  ");
 
+if (populacaoc1 == populacaoc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+}else if (populacaoc1 > populacaoc2)
+{
+    printf("\n\n%s!!!",nomedacidade1);
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }else {
+        printf("\n\n%s!!!",nomedacidade2);
+        printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+        printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }
+
+    printf("\n\nEscolha o segundo atributo a ser comparado: ");
+    printf("\n\n1...X Atributo já escolhido ");
+    printf("\n2...Para o Número de pontos turísticos ");
+    printf("\n3...Para a Área da cidade ");
+    printf("\n4...Para o PIB ");
+    printf("\n5...Para a Densidade populacional ");
+    printf("\n6...Para o PIB per capita ");
+    printf("\n\n!!!Aviso: Em caso de opção invalida, O sistema exibirá uma mensagem de erro!!!");
+    printf("\n\nOpção:  ");
+    scanf("%d", &opcaodojogador);
+
+switch (opcaodojogador)
+{
+case 2:
+printf("\n\nOpção escolhida: Número de pontos turísticos  ");
+
+if (npontosc1 == npontosc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,nomedacidade2);
+}else if (npontosc1 > npontosc2)
+{
+    printf("\n\n%s!!!",nomedacidade1);
+    printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,npontosc2);
+    }else {
+        printf("\n\n%s!!!",nomedacidade2);
+        printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
+        printf("\nPopulação de %s : %d ",nomedacidade2,npontosc2);
+    }
+
+somaresc1 = populacaoc1 + npontosc1;
+somaresc2 = populacaoc2 + npontosc2;
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+
+    break;
+    case 3:
     
+    break;
+    case 4:
+    
+    break;
+    case 5:
+    
+    break;
+    case 6:
+    
+    break;
+
+default:
+printf("\n\n\n\n!!!Entrada invalida!!!");
+printf("\nFinalizando programa...");
+}
+    
+break;
+case 2:
+
 break;
 default:
 
@@ -165,7 +240,7 @@ printf("\nFinalizando programa...");
 
 
 
-
+printf("\nFinalizando programa...");
 
 
 
