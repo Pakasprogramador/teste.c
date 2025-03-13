@@ -1362,7 +1362,7 @@ printf("\n\nObrigado por jogar ;)");
 printf("\n\n\nFinalizando programa...\n\n\n");
 
 
-printf("\n\nNovo Commit");
+printf("\n\nNovo Commit.");
 
     return 0;
 }
