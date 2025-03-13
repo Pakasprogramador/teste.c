@@ -159,11 +159,11 @@ if (populacaoc1 == populacaoc2)
     printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
 }else if (populacaoc1 > populacaoc2)
 {
-    printf("\n\n%s!!!",nomedacidade1);
+    printf("\n\n%s Venceu!!!",nomedacidade1);
     printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
     printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
     }else {
-        printf("\n\n%s!!!",nomedacidade2);
+        printf("\n\n%s Venceu!!!",nomedacidade2);
         printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
         printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
     }
@@ -188,14 +188,14 @@ if (npontosc1 == npontosc2)
 {
     printf("\n\nEmpate entre cidades!!!");
     printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
-    printf("\nPopulação de %s : %d ",nomedacidade2,nomedacidade2);
+    printf("\nPopulação de %s : %d ",nomedacidade2,npontosc2);
 }else if (npontosc1 > npontosc2)
 {
-    printf("\n\n%s!!!",nomedacidade1);
+    printf("\n\n%s Venceu!!!",nomedacidade1);
     printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
     printf("\nPopulação de %s : %d ",nomedacidade2,npontosc2);
     }else {
-        printf("\n\n%s!!!",nomedacidade2);
+        printf("\n\n%s Venceu!!!",nomedacidade2);
         printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
         printf("\nPopulação de %s : %d ",nomedacidade2,npontosc2);
     }
@@ -203,36 +203,958 @@ if (npontosc1 == npontosc2)
 somaresc1 = populacaoc1 + npontosc1;
 somaresc2 = populacaoc2 + npontosc2;
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
 
 
     break;
     case 3:
-    
+    printf("\n\nOpção escolhida: Área da cidade   ");
+
+if (areac1 == areac2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+}else if (npontosc1 > npontosc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+    }
+
+somaresc1 = populacaoc1 + areac1;
+somaresc2 = populacaoc2 + areac2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
     break;
     case 4:
+    printf("\n\nOpção escolhida: PIB   ");
+
+    if (PIBc1 == PIBc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBc2);
+    }else if (PIBc1 > PIBc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+        }
     
+    somaresc1 = populacaoc1 + PIBc1;
+    somaresc2 = populacaoc2 + PIBc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
     break;
     case 5:
+    printf("\n\nOpção escolhida: Densidada de populacional   ");
+
+    if (densipopuc1 == densipopuc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,densipopuc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,densipopuc2);
+    }else if (densipopuc1 > densipopuc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade1);
+            printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+        }
     
+    somaresc1 = populacaoc1 + densipopuc1;
+    somaresc2 = populacaoc2 + densipopuc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
     break;
     case 6:
+    printf("\n\nOpção escolhida: PIB per capita    ");
+
+    if (PIBpcc1 == PIBpcc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBpcc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBpcc2);
+    }else if (PIBpcc1 > PIBpcc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }
     
+    somaresc1 = populacaoc1 + PIBpcc1;
+    somaresc2 = populacaoc2 + PIBpcc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
     break;
 
 default:
 printf("\n\n\n\n!!!Entrada invalida!!!");
-printf("\nFinalizando programa...");
+
 }
     
 break;
+//Número de pontos turísticos 
 case 2:
+printf("\n\nOpção escolhida: Número de pontos túristicos  ");
+
+if (npontosc1 == npontosc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,npontosc2);
+}else if (npontosc1 > npontosc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,npontosc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %d ",nomedacidade1,npontosc1);
+        printf("\nPopulação de %s : %d ",nomedacidade2,npontosc2);
+    }
+
+    printf("\n\nEscolha o segundo atributo a ser comparado: ");
+    printf("\n\n1...Para População ");
+    printf("\n2...X Atributo já escolhido ");
+    printf("\n3...Para a Área da cidade ");
+    printf("\n4...Para o PIB ");
+    printf("\n5...Para a Densidade populacional ");
+    printf("\n6...Para o PIB per capita ");
+    printf("\n\n!!!Aviso: Em caso de opção invalida, O sistema exibirá uma mensagem de erro!!!");
+    printf("\n\nOpção:  ");
+    scanf("%d", &opcaodojogador);
+
+switch (opcaodojogador)
+{
+case 1:
+printf("\n\nOpção escolhida: População  ");
+
+if (populacaoc1 == populacaoc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+}else if (populacaoc1 > populacaoc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+        printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }
+
+somaresc1 = npontosc1 + populacaoc1;
+somaresc2 =  npontosc2 + populacaoc2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 3:
+    printf("\n\nOpção escolhida: Área da cidade   ");
+
+if (areac1 == areac2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+}else if (npontosc1 > npontosc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+    }
+
+somaresc1 =npontosc1 + areac1;
+somaresc2 = npontosc2 + areac2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 4:
+    printf("\n\nOpção escolhida: PIB   ");
+
+    if (PIBc1 == PIBc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBc2);
+    }else if (PIBc1 > PIBc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+        }
+    
+    somaresc1 = npontosc1 + PIBc1;
+    somaresc2 = npontosc2 + PIBc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 5:
+    printf("\n\nOpção escolhida: Densidada de populacional   ");
+
+    if (densipopuc1 == densipopuc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,densipopuc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,densipopuc2);
+    }else if (densipopuc1 > densipopuc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade1);
+            printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+        }
+    
+    somaresc1 = npontosc1 + densipopuc1;
+    somaresc2 = npontosc2 + densipopuc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 6:
+    printf("\n\nOpção escolhida: PIB per capita    ");
+
+    if (PIBpcc1 == PIBpcc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBpcc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBpcc2);
+    }else if (PIBpcc1 > PIBpcc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }
+    
+    somaresc1 = npontosc1 + PIBpcc1;
+    somaresc2 = npontosc2 + PIBpcc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+
+default:
+printf("\n\n\n\n!!!Entrada invalida!!!");
+
+}
+    
+break;
+//Área da cidade 
+case 3: 
+printf("\n\nOpção escolhida: Área da cidade  ");
+
+if (areac1 == areac2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+}else if (areac1 > areac2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+    }
+
+    printf("\n\nEscolha o segundo atributo a ser comparado: ");
+    printf("\n\n1...Para População ");
+    printf("\n2...Número de pontos turísticos");
+    printf("\n3...X Atributo já escolhido ");
+    printf("\n4...Para o PIB ");
+    printf("\n5...Para a Densidade populacional ");
+    printf("\n6...Para o PIB per capita ");
+    printf("\n\n!!!Aviso: Em caso de opção invalida, O sistema exibirá uma mensagem de erro!!!");
+    printf("\n\nOpção:  ");
+    scanf("%d", &opcaodojogador);
+
+switch (opcaodojogador)
+{
+case 1:
+printf("\n\nOpção escolhida: População  ");
+
+if (populacaoc1 == populacaoc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+}else if (populacaoc1 > populacaoc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+        printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }
+
+somaresc1 = areac1 + populacaoc1;
+somaresc2 =  areac2 + populacaoc2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 2:
+    printf("\n\nOpção escolhida: Número de pontos turísticos  ");
+
+if (npontosc1 == npontosc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+}else if (npontosc1 > npontosc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+    }
+
+somaresc1 = areac1 + npontosc1;
+somaresc2 = areac2 + npontosc2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 4:
+    printf("\n\nOpção escolhida: PIB   ");
+
+    if (PIBc1 == PIBc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBc2);
+    }else if (PIBc1 > PIBc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+        }
+    
+    somaresc1 = areac1 + PIBc1;
+    somaresc2 = areac2 + PIBc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 5:
+    printf("\n\nOpção escolhida: Densidada de populacional   ");
+
+    if (densipopuc1 == densipopuc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,densipopuc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,densipopuc2);
+    }else if (densipopuc1 > densipopuc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade1);
+            printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+        }
+    
+    somaresc1 = areac1 + densipopuc1;
+    somaresc2 = areac2 + densipopuc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 6:
+    printf("\n\nOpção escolhida: PIB per capita    ");
+
+    if (PIBpcc1 == PIBpcc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBpcc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBpcc2);
+    }else if (PIBpcc1 > PIBpcc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }
+    
+    somaresc1 = areac1 + PIBpcc1;
+    somaresc2 = areac2 + PIBpcc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+
+default:
+printf("\n\n\n\n!!!Entrada invalida!!!");
+
+}
+  
+break;
+//PIB
+case 4: 
+printf("\n\nOpção escolhida: PIB  ");
+
+if (PIBc1 == PIBc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+}else if (PIBc1 > PIBc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+    printf("\nPopulação de %s : %f",nomedacidade2,PIBc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+    }
+
+    printf("\n\nEscolha o segundo atributo a ser comparado: ");
+    printf("\n\n1...Para População ");
+    printf("\n2...Número de pontos turísticos");
+    printf("\n3...Para a Área da cidade ");
+    printf("\n4...X Atributo já escolhido");
+    printf("\n5...Para a Densidade populacional ");
+    printf("\n6...Para o PIB per capita ");
+    printf("\n\n!!!Aviso: Em caso de opção invalida, O sistema exibirá uma mensagem de erro!!!");
+    printf("\n\nOpção:  ");
+    scanf("%d", &opcaodojogador);
+
+switch (opcaodojogador)
+{
+case 1:
+printf("\n\nOpção escolhida: População  ");
+
+if (populacaoc1 == populacaoc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+}else if (populacaoc1 > populacaoc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+        printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }
+
+somaresc1 = PIBc1 + populacaoc1;
+somaresc2 =  PIBc2 + populacaoc2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 2:
+    printf("\n\nOpção escolhida: Número de pontos turísticos  ");
+
+if (npontosc1 == npontosc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+}else if (npontosc1 > npontosc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+    }
+
+somaresc1 = PIBc1 + npontosc1;
+somaresc2 = PIBc2 + npontosc2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 3:
+    printf("\n\nOpção escolhida: Área da cidade   ");
+
+    if (areac1 == areac2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,areac1;
+        printf("\nPopulação de %s : %f",nomedacidade2,areac2);
+    }else if (areac1 > areac2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+        }
+    
+    somaresc1 = PIBc1 + areac1;
+    somaresc2 = PIBc2 + areac2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 5:
+    printf("\n\nOpção escolhida: Densidada de populacional   ");
+
+    if (densipopuc1 == densipopuc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,densipopuc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,densipopuc2);
+    }else if (densipopuc1 > densipopuc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade1);
+            printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+        }
+    
+    somaresc1 = PIBc1 + densipopuc1;
+    somaresc2 = PIBc2 + densipopuc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 6:
+    printf("\n\nOpção escolhida: PIB per capita    ");
+
+    if (PIBpcc1 == PIBpcc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBpcc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBpcc2);
+    }else if (PIBpcc1 > PIBpcc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }
+    
+    somaresc1 = PIBc1 + PIBpcc1;
+    somaresc2 = PIBc2 + PIBpcc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+
+default:
+printf("\n\n\n\n!!!Entrada invalida!!!");
+
+}
+
+break;
+//Densidade populacional
+case 5: 
+printf("\n\nOpção escolhida: Densidade Populacional  ");
+
+if (densipopuc1 == densipopuc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+}else if (densipopuc1 > densipopuc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade2);
+    printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+    printf("\nPopulação de %s : %f",nomedacidade2,densipopuc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,densipopuc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,densipopuc2);
+    }
+
+    printf("\n\nEscolha o segundo atributo a ser comparado: ");
+    printf("\n\n1...Para População ");
+    printf("\n2...Número de pontos turísticos");
+    printf("\n3...Para a Área da cidade ");
+    printf("\n4...Para PIB");
+    printf("\n5...X Atributo já escolhido ");
+    printf("\n6...Para o PIB per capita ");
+    printf("\n\n!!!Aviso: Em caso de opção invalida, O sistema exibirá uma mensagem de erro!!!");
+    printf("\n\nOpção:  ");
+    scanf("%d", &opcaodojogador);
+
+switch (opcaodojogador)
+{
+case 1:
+printf("\n\nOpção escolhida: População  ");
+
+if (populacaoc1 == populacaoc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+}else if (populacaoc1 > populacaoc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+    printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %d ",nomedacidade1,populacaoc1);
+        printf("\nPopulação de %s : %d ",nomedacidade2,populacaoc2);
+    }
+
+somaresc1 = densipopuc1 + populacaoc1;
+somaresc2 =  densipopuc2 + populacaoc2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 2:
+    printf("\n\nOpção escolhida: Número de pontos turísticos  ");
+
+if (npontosc1 == npontosc2)
+{
+    printf("\n\nEmpate entre cidades!!!");
+    printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+}else if (npontosc1 > npontosc2)
+{
+    printf("\n\n%s Venceu!!!",nomedacidade1);
+    printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+    printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+    }else {
+        printf("\n\n%s Venceu!!!",nomedacidade2);
+        printf("\nPopulação de %s : %f ",nomedacidade1,npontosc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,npontosc2);
+    }
+
+somaresc1 = densipopuc1 + npontosc1;
+somaresc2 = densipopuc2 + npontosc2;
+
+    // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//resultdo/vencedor da rodada 
+
+somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 3:
+    printf("\n\nOpção escolhida: Área da cidade   ");
+
+    if (areac1 == areac2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,areac1;
+        printf("\nPopulação de %s : %f",nomedacidade2,areac2);
+    }else if (areac1 > areac2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,areac1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,areac2);
+        }
+    
+    somaresc1 = densipopuc1 + areac1;
+    somaresc2 = densipopuc2 + areac2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 4:
+    printf("\n\nOpção escolhida: PIB   ");
+
+    if (PIBc1 == PIBc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBc2);
+    }else if (PIBc1 > PIBc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBc2);
+        }
+    
+    somaresc1 = densipopuc1 + PIBc1;
+    somaresc2 = densipopuc2 + PIBc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+    case 6:
+    printf("\n\nOpção escolhida: PIB per capita    ");
+
+    if (PIBpcc1 == PIBpcc2)
+    {
+        printf("\n\nEmpate entre cidades!!!");
+        printf("\nPopulação de %s : %f"),nomedacidade1,PIBpcc1;
+        printf("\nPopulação de %s : %f",nomedacidade2,PIBpcc2);
+    }else if (PIBpcc1 > PIBpcc2)
+    {
+        printf("\n\n%s Venceu!!!",nomedacidade1);
+        printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+        printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }else {
+            printf("\n\n%s Venceu!!!",nomedacidade2);
+            printf("\nPopulação de %s : %f ",nomedacidade1,PIBpcc1);
+            printf("\nPopulação de %s : %f ",nomedacidade2,PIBpcc2);
+        }
+    
+    somaresc1 = densipopuc1 + PIBpcc1;
+    somaresc2 = densipopuc2 + PIBpcc2;
+    
+        // condicao ? t : f ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    
+    //resultdo/vencedor da rodada 
+    
+    somaresc1 == somaresc2 ? printf("\n\nEmpate na rodada!!!\nSem vencedor!!!") :printf("");
+    somaresc1 > somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade1) :printf("");
+    somaresc1 < somaresc2 ? printf("\n\n%s Venceu!!!",nomedacidade2) :printf("");
+
+
+    break;
+
+default:
+printf("\n\n\n\n!!!Entrada invalida!!!");
+
+}
+
+break;
+case 6: 
 
 break;
 default:
 
 printf("\n\n\n\n!!!Entrada invalida!!!");
-printf("\nFinalizando programa...");
+
     
 }
 
@@ -240,7 +1162,7 @@ printf("\nFinalizando programa...");
 
 
 
-printf("\nFinalizando programa...");
+printf("\n\n\nFinalizando programa...\n\n\n");
 
 
 
